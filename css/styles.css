@@ -59,6 +59,8 @@ body {
         font-size: 26px;
         line-height: 1.2;
         color: var(--accent-color);
+        margin-top: 0;
+            margin-bottom: 0;
 }
 
 .logo-white{
@@ -91,6 +93,11 @@ body {
 .logo-studio:focus{
     color: var(--accent-color);
 }
+
+
+/* main Portfolio */
+
+
 
 /* Styling Naw */
 
@@ -144,8 +151,8 @@ body {
 /* hero styles */
 
 .hero {
-    
-    
+    margin-bottom: 90px;
+    text-align: center;
     background: #2F303A;
 }
 
@@ -153,9 +160,10 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     text-transform: uppercase;
-    
+    margin-top: 200px;
+        margin-bottom: 30px;
+        
     color: #ffffff;
 }
 
@@ -165,26 +173,26 @@ body {
     height: 50px;
     left: 692px;
     top: 430px;
-    text-align: center;
+    
     background: var(--accent-color);
     color: #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
     padding: 11px 34px;
-    
-
-    
+    margin-bottom: 200px;
 }
+
 
 
 /* features styling */
 .features {
-    margin-bottom: 90px;
+    margin-bottom: 120px;
     color: var(--title-color);
 }
 
 .features-title {
+    
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -195,13 +203,15 @@ body {
     fon50pxt-size: 14px;
     line-height: 1.7;
     color: var(--main-color-text);
+    margin-top: 0;
+        margin-bottom: 0;
 }
 
 
 /* section section-title styles */
 .section {
+    
     background-color: #ffffff;
-    ;
     color: var(--title-color)
 }
 
@@ -215,7 +225,34 @@ body {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 50px;
+    margin-top: 0;
+        margin-bottom: 50px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 120px;
+        margin-bottom: 50px;
+}
+
+
+
+
+.work{
+    margin-bottom: 90px;
+}
+
+.section-title-team{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        margin-top: 90px;
+        margin-bottom: 50px;
 }
 
 .section-list {
@@ -231,6 +268,8 @@ body {
     line-height: 1.18;
     text-align: center;
     color: var(--main-color-text);
+    margin-top: 0;
+        margin-bottom: 0;
 }
 
 /* Особливості Filters  */
@@ -244,6 +283,11 @@ body {
     color: var(--title-color);
     background: #F5F4FA;
     
+}
+
+.button{
+    margin-top: 90px;
+    margin-bottom: 50px;
 }
 
 .button .button-lyst:hover,
@@ -265,6 +309,8 @@ body {
         line-height: 30px;
         text-decoration: none;
     color: var(--main-color-text);
+    margin-top: 0;
+        margin-bottom: 0;
 }
 
 
