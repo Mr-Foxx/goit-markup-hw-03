@@ -187,7 +187,7 @@ img{
 /* hero styles */
 
 .hero {
-    
+    margin-bottom: 94px;
     text-align: center;
     background: #2F303A;
 }
